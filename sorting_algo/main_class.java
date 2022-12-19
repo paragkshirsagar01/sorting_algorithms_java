@@ -8,5 +8,14 @@ public class main_class {
         for (Integer integer : array) {
             System.out.println(integer);
         }
+
+
+        System.out.println("selection sort");
+        selection_sort<Integer> s=new selection_sort<>();
+        Integer[] selection_array={5,4,2,3,1,1,2,3,4};
+        selection_array=s.sort(selection_array);
+        for (Integer integer : selection_array) {
+            System.out.println(integer);
+        }
     }
 }
