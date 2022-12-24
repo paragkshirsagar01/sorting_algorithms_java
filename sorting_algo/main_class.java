@@ -31,5 +31,13 @@ public class main_class {
         for (Integer integer : quick_array) {
             System.out.println(integer);
         }
+
+        System.out.println("merge sort");
+        int[] merge_array={5,4,2,3,1,1,2,3,4};
+        merge_sort m=new merge_sort();
+        m.divide(0, 8, merge_array);
+        for (int i : merge_array) {
+            System.out.println(i);
+        }
     }
 }
